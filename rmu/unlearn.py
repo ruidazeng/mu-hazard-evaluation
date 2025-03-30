@@ -3,7 +3,7 @@ import datetime
 
 import numpy as np
 import torch
-from transformers.optimization import AdamW
+from transformers.optimization import Adafactor
 import tqdm as tqdm
 
 from rmu.utils import load_model, get_params, forward_with_cache, get_data
@@ -23,7 +23,7 @@ def run_rmu(
 
     updated_model = updated_model.train()
     params = get_params(updated_model, args.layer_ids, args.param_ids)
-    optimizer = AdamW(params, lr=args.lr)
+    optimizer = Adafactor(params, lr=args.lr)
     frozen_module = eval(
         args.module_str.format(model_name="frozen_model", layer_id=args.layer_id)
     )
