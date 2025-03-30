@@ -3,7 +3,7 @@ import datetime
 
 import numpy as np
 import torch
-from transformers.optimization import Adafactor
+from transformers import AdamW
 import tqdm as tqdm
 
 from rmu.utils import load_model, get_params, forward_with_cache, get_data
