@@ -23,7 +23,7 @@ def run_rmu(
 
     updated_model = updated_model.train()
     params = get_params(updated_model, args.layer_ids, args.param_ids)
-    optimizer = Adafactor(params, lr=args.lr)
+    optimizer = AdamW(params, lr=args.lr)
     frozen_module = eval(
         args.module_str.format(model_name="frozen_model", layer_id=args.layer_id)
     )
