@@ -1,4 +1,4 @@
-# Machine Unlearning Evaluation
+# Machine Unlearning Hazard Evaluation
 
 ## WMDP
 The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning by Li, Nathaniel, et al. Proceedings of the 41st International Conference on Machine Learning (ICML). 2024.
