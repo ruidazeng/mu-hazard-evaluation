@@ -13,3 +13,5 @@ Then:
 lm-eval --model hf     --model_args pretrained=models/zephyr_rmu     --tasks mmlu,wmdp     --batch_size=32
 ```
 
+## Results
+![image](https://github.com/user-attachments/assets/6e855ac5-d5ab-4300-881d-3e8941374579)
