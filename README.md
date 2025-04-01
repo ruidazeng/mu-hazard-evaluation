@@ -1,5 +1,16 @@
-# MU-Evaluation
-A benchmark and evaluations for machine unlearning - private information usage
+# Machine Unlearning Evaluation
+
+## WMDP
+The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning by Li, Nathaniel, et al. Proceedings of the 41st International Conference on Machine Learning (ICML). 2024.
+
+<img width="647" alt="Image" src="https://github.com/user-attachments/assets/b2311345-6921-46ea-8dd1-1edf5e109743" />
+
+Paper: https://arxiv.org/abs/2403.03218
+Site: https://www.wmdp.ai/
+GitHub: https://github.com/centerforaisafety/wmdp?tab=readme-ov-file
+Hugging Faces: https://huggingface.co/datasets/cais/wmdp
+
+<img width="641" alt="Image" src="https://github.com/user-attachments/assets/ac09cca0-d820-40c9-968f-ee94e9771d2b" />
 
 ## Reproduction Steps
 
